@@ -1,6 +1,6 @@
 import React from "react"
 import About from "./pages/about/About"
-import Contact from "./pages/contact/Contact.Jsx"
+import Contact from "./pages/contact/Contact"
 import Gallery from "./pages/gallery/Gallery"
 import Home from "./pages/home/Home"
 import NotFound from "./pages/not found/NotFound"
@@ -14,7 +14,7 @@ function App() {
     <div className="App">
        <Home/>
        <About/>
-       <Contact/>
+       <Contact />
        <Plans/>
        <Gallery />
        <Trainings/>
