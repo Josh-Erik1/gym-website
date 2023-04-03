@@ -30,7 +30,7 @@ export const links = [
 export const programs = [
   {
     id: 1,
-    icon: " <SiOpenaigym />",
+    icon: "<SiOpenaigym />",
     title: "Program One",
     info: "This is the day that the lord has made. We will rejoice!",
     path: "/programs/111",

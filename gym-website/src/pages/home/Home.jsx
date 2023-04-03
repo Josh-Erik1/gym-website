@@ -1,11 +1,16 @@
-import './home.css'
+import Header from "../../components/Header";
+import "./home.css";
 
-import React from 'react'
+import React from "react";
+import Programs from "../../components/programs";
 
 const Home = () => {
   return (
-    <div><p>Home</p></div>
-  )
-}
+    <>
+      <Header />
+      <Programs />
+    </>
+  );
+};
 
-export default Home
+export default Home;
