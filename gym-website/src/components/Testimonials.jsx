@@ -8,6 +8,7 @@ import {
 } from "react-icons/io";
 import { testimonials } from "../data";
 import { useState } from "react";
+// import avatar1 from "/Users/dell/Desktop/Taiwo Rural Area/gym-website/gym-website/public/images/avatar1.jpg";
 
 const Testimonials = () => {
   const [index, setIndex] = useState(0);
