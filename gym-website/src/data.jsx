@@ -30,7 +30,7 @@ export const links = [
 export const programs = [
   {
     id: 1,
-    icon: "<SiOpenaigym />",
+    icon: <SiOpenaigym />,
     title: "Program One",
     info: "This is the day that the lord has made. We will rejoice!",
     path: "/programs/111",
@@ -131,7 +131,7 @@ export const testimonials = [
     quote:
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium ipsam facere ea a laboriosam sed? Quod vel voluptates a! Maxime minima cumque aut? In expedita numquam consectetur non officia iusto.",
     job: "Student",
-    // avatar: require("./images/avatar1.jpg"),
+    avatar: "../images/avatar1.jpg",
   },
   {
     id: 2,
@@ -139,7 +139,7 @@ export const testimonials = [
     quote:
       "Harum quaerat hic consequuntur molestias repellat ad quo tenetur vitae rem, labore quisquam? Atque, assumenda rerum this and that odit harum quaerat hic praesentium quisquam quae, enim iste ipsam id repellat.",
     job: "Software Egineer",
-    avatar: 'require("./images/avatar2.jpg")',
+    avatar: "../images/avatar2.jpg",
   },
   {
     id: 3,
@@ -147,7 +147,7 @@ export const testimonials = [
     quote:
       "Quaerat hic praesentium consequuntur molestias repellat ad quo tenetur vitae rem, labore quisquam? Atque, assumenda rerum odit harum quaerat hic praesentium quisquam quae, enim iste ipsam id repellat.",
     job: "University Lecturer",
-    avatar: ' ("./images/avatar3.jpg")',
+    avatar: ' "../images/avatar3.jpg"',
   },
   {
     id: 4,
@@ -155,7 +155,7 @@ export const testimonials = [
     quote:
       "Cupiditate deleniti sint consequuntur molestias repellat ad quo tenetur vitae rem, labore quisquam? Atque, assumenda rerum odit harum quaerat hic praesentium quisquam quae, enim iste ipsam id repellat.",
     job: "Talking Parrot",
-    avatar: 'require("./images/avatar4.jpg")',
+    avatar: "../images/avatar4.jpg",
   },
   {
     id: 5,
@@ -163,7 +163,7 @@ export const testimonials = [
     quote:
       "Maxime minima cumque sit amet consectetur adipisicing elit. Praesentium ipsam facere ea a laboriosam sed? Quod vel voluptates a! Maxime minima cumque aut? In expedita numquam consectetur non officia iusto.",
     job: "Pharmacist",
-    avatar: 'require("./images/avatar5.jpg")',
+    avatar: "../images/avatar5.jpg",
   },
 ];
 
