@@ -1,9 +1,4 @@
-import {
-  BrowserRouter,
-  Routes,
-  Route,
-  ScrollRestoration,
-} from "react-router-dom";
+import { BrowserRouter, Routes, Route } from "react-router-dom";
 import "./index.css";
 
 import React from "react";
@@ -16,11 +11,12 @@ import Plans from "./pages/plans/Plans";
 import Trainings from "./pages/trainings/Trainings";
 import Navbar from "./components/Navbar";
 import Footer from "./components/Footer";
+import ScrollToTop from "./components/ScrollToTop";
 
 function App() {
   return (
     <BrowserRouter>
-      <ScrollRestoration />
+      <ScrollToTop />
       <Navbar />
       <Routes>
         <Route index element={<Home />} />
