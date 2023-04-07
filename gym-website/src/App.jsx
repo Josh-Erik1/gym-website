@@ -1,4 +1,9 @@
-import { BrowserRouter, Routes, Route } from "react-router-dom";
+import {
+  BrowserRouter,
+  Routes,
+  Route,
+  ScrollRestoration,
+} from "react-router-dom";
 import "./index.css";
 
 import React from "react";
@@ -10,10 +15,12 @@ import NotFound from "./pages/not found/NotFound";
 import Plans from "./pages/plans/Plans";
 import Trainings from "./pages/trainings/Trainings";
 import Navbar from "./components/Navbar";
+import Footer from "./components/Footer";
 
 function App() {
   return (
     <BrowserRouter>
+      <ScrollRestoration />
       <Navbar />
       <Routes>
         <Route index element={<Home />} />
@@ -25,6 +32,7 @@ function App() {
         <Route path="*" element={<NotFound />} />
         <Route path="about" element={<About />} />
       </Routes>
+      <Footer />
     </BrowserRouter>
   );
 }
