@@ -147,7 +147,7 @@ export const testimonials = [
     quote:
       "Quaerat hic praesentium consequuntur molestias repellat ad quo tenetur vitae rem, labore quisquam? Atque, assumenda rerum odit harum quaerat hic praesentium quisquam quae, enim iste ipsam id repellat.",
     job: "University Lecturer",
-    avatar: ' "../images/avatar3.jpg"',
+    avatar: " ../images/avatar3.jpg",
   },
   {
     id: 4,
