@@ -10,9 +10,16 @@ import { useState } from "react";
 
 const Navbar = () => {
   const [isNavShowing, setIsNavShowing] = useState(false);
+  const [transparentNav, setTransparentNav] = useState(false);
+
+  const changeNav = () => {
+    scrollY > 90 ? setTransparentNav(false) : setTransparentNav(true);
+  };
+
+  window.addEventListener("scroll", changeNav);
 
   return (
-    <nav>
+    <nav className={transparentNav ? "" : "active"}>
       <div className=" container nav__container">
         <Link className="logo" to="/">
           <img
@@ -28,7 +35,9 @@ const Navbar = () => {
                 <NavLink
                   onClick={() => setIsNavShowing((prev) => !prev)}
                   to={path}
-                  className={({ isActive }) => (isActive ? "active-nav" : "")}
+                  className={({ isActive }) =>
+                    transparentNav === true && isActive ? "active-nav" : ""
+                  }
                 >
                   {" "}
                   {name}

@@ -217,6 +217,7 @@ section {
   background: var(--color-gray-500);
   padding: 2rem;
   border-radius: 1rem;
+  transition: var(--transition);
 }
 
 .faq div {
@@ -332,7 +333,7 @@ section {
     margin-top: 7rem;
   }
 
-  . .header {
+  .header {
     height: fit-content;
   }
 

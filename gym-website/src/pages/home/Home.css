@@ -1,6 +1,6 @@
 .main__header {
   width: 100vw;
-  height: calc(100vh -3rem);
+  height: calc(100vh - 3rem);
   display: grid;
   place-items: center;
   margin-top: 3rem;
@@ -51,8 +51,6 @@
 .main__header-image {
   position: relative;
 }
-
-
 
 .programs {
   margin-top: 4rem;

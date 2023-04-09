@@ -8,6 +8,11 @@ nav {
   top: 0;
   left: 0;
   z-index: 99;
+  box-shadow: 0 0 5px black;
+}
+
+.active {
+  background-color: rgba(0, 0, 0, 0.4);
 }
 
 /* This should display only on small screens */
@@ -105,5 +110,11 @@ nav {
 
   .hide-nav {
     display: none;
+  }
+}
+
+@media screen and (max-width: 450px) {
+  .nav__links {
+    width: 100%;
   }
 }
