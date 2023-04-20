@@ -31,7 +31,6 @@
 }
 
 .main__header-right {
-  margin-top: 5rem;
   display: grid;
   place-items: center;
   position: relative;

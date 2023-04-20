@@ -1,5 +1,5 @@
 import React from "react";
-import Image from "../images/Values.jpg";
+import Image from "../images/values.jpg";
 import SectionHead from "./SectionHead";
 import { GiCutDiamond } from "react-icons/gi";
 import { values } from "../data";

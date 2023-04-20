@@ -2,7 +2,7 @@ import Header from "../../components/Header";
 import "./home.css";
 
 import React from "react";
-import Programs from "../../components/programs";
+import Programs from "../../components/Programs";
 import Values from "../../components/Values";
 import FAQs from "../../components/FAQs";
 import Testimonials from "../../components/Testimonials";
