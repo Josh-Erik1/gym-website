@@ -42,7 +42,7 @@
 
 /* Media Queries (medium screens)  */
 @media screen and (max-width: 1024px) {
-  .plans__conttainer {
+  .plans__container {
     grid-template-columns: 1fr 1fr;
     gap: 2rem;
   }
@@ -50,7 +50,7 @@
 
 /* Media Queries (small screens)  */
 @media screen and (max-width: 600px) {
-  .plans__conttainer {
+  .plans__container {
     grid-template-columns: 1fr;
   }
 

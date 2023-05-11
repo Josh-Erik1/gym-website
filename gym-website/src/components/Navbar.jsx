@@ -10,7 +10,7 @@ import { useState } from "react";
 
 const Navbar = () => {
   const [isNavShowing, setIsNavShowing] = useState(false);
-  const [transparentNav, setTransparentNav] = useState(false);
+  const [transparentNav, setTransparentNav] = useState(true);
 
   const changeNav = () => {
     scrollY > 90 ? setTransparentNav(false) : setTransparentNav(true);
